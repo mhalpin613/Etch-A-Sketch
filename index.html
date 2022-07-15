@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>etch-a-sketch!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="./etch-icon.jpg">
+    </head>
+    <body>
+        <header class="selections">
+            <button id="16">16x16 Grid</button>
+            <button id="32">32x32 Grid</button>
+            <button id="64">64x64 Grid</button>
+            <button id="100">100x100 Grid</button>
+
+            <button id="eraser">Eraser</button>
+
+            <p>Pick a color:</p>
+            <input type="color" id="color">
+        </header>
+        <div class="flex-contain">
+            <div id="grid-container">
+
+            </div>
+        </div>
+        <footer>
+            <button id="reset">Reset</button>
+        </footer>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
